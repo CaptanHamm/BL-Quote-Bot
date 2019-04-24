@@ -59,6 +59,4 @@ typings/
 
 .settings/
 .project
-sb.json
-scorpio.json
 config/settings.json
