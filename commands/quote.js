@@ -1,4 +1,4 @@
-function getRandomInt(max) 
+function getRandomInt(max)
 {
 	return Math.floor(Math.random()*Math.floor(max));
 };
@@ -14,7 +14,7 @@ async function doQuote( obj ) {
 		let { text } = obj.command.args;
 		//Do stuff here for doQuote
 		obj.success("This command requires a sub command to run.  Check out " +obj.instance.settings.prefix + obj.command.cmd + " help to see more.");
-		} 
+		}
 	//if all else fails...
 	catch(e) {
 		obj.error('quote.doQuote',e);
@@ -59,7 +59,7 @@ async function doQPsycho( obj ) {
 		replyPsycho.setThumbnail(imagePsycho[1]);
 		replyPsycho.setDescription(quoteItem);
 		obj.message.channel.send(replyPsycho);
-		} 
+		}
 	//if all else fails....
 	catch(e) {
 		obj.error('quote.doQPsycho',e);
@@ -67,7 +67,7 @@ async function doQPsycho( obj ) {
 	}
 };
 async function doQJack( obj ) {
-	try {		
+	try {
 		//Args passed to command
 		let { text } = obj.command.args;
 		//calls the Quotes.json file and uses the array "Jack"
@@ -82,7 +82,7 @@ async function doQJack( obj ) {
 		replyJack.setThumbnail(imageJack[1]);
 		replyJack.setDescription(quoteItem);
 		obj.message.channel.send(replyJack);
-	}	
+	}
 	//if the above fails...
 	catch(e) {
 		obj.error('quote.doQJack',e);
@@ -109,7 +109,7 @@ async function doQLotto(obj) {
 	  }
 	};
 
-module.exports = { 
+module.exports = {
 		doQuote: async ( obj ) => {
 			return await doQuote( obj );
 		},
@@ -125,5 +125,5 @@ module.exports = {
 		doQLotto: async ( obj ) => {
 			return await doQLotto( obj );
 		}
-		
+
 };
