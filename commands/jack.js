@@ -1,4 +1,4 @@
-module.exports = async ( client, message, require, doQuote, doQTorgue, doQPsycho, doQJack, doQLotto ) => {
+module.exports = async ( client, message, doQuote, doQJack ) => {
 
 function getRandomInt(max)
 {
@@ -22,62 +22,7 @@ async function doQuote( obj ) {
 		obj.error('quote.doQuote',e);
 	}
 };
-async function doQTorgue( obj ) {
-	try {
-		//Args passed to command
-		let { text } = obj.command.args;
-		//calls the Quotes.json file and tells it to look at "Torgue"
-		let quotes = require("./Quotes.json")["Torgue"];
-		//gets a random quote from the array
-		let quoteItem = quotes[getRandomInt(quotes.length)-1];
-		//creates a rich embed for displaying quote
-		const Discord = require('discord.js');
-		let replyTorgue = new Discord.RichEmbed();
-		replyTorgue.setColor(0x007CB6);
-		replyTorgue.setAuthor(imageTorgue[0], authorImage);
-        replyTorgue.setThumbnail(imageTorgue[1]);
-		replyTorgue.setDescription(quoteItem);
-		obj.message.channel.send(replyTorgue);
 
-		//{
-			//return await doQTorgue( obj );
-		//};
-	}
-
-	//if all else fails....
-	catch(e) {
-		obj.error('quote.doQTorque',e);
-		obj.fail(e.message);
-	}
-};
-async function doQPsycho( obj ) {
-	try {
-		//Args passed to command
-		let { text } = obj.command.args;
-		//calls the Quotes.json file and specifies to use array "Psycho"
-		let quotes = require("./Quotes.json")["Psycho"];
-		//gets a random quote from the array
-		let quoteItem = quotes[getRandomInt(quotes.length)-1];
-		//creates a rich embed for displaying quote
-		const Discord = require('discord.js');
-		let replyPsycho = new Discord.RichEmbed();
-		replyPsycho.setColor(0xff0000);
-		replyPsycho.setAuthor(imagePsycho[0], authorImage);
-		replyPsycho.setThumbnail(imagePsycho[1]);
-		replyPsycho.setDescription(quoteItem);
-		obj.message.channel.send(replyPsycho);
-
-		//{
-			//return await doQPsycho( obj );
-		//};
-	}
-
-	//if all else fails....
-	catch(e) {
-		obj.error('quote.doQPsycho',e);
-		obj.fail(e.message);
-	}
-};
 async function doQJack( obj ) {
 	try {
 		//Args passed to command
@@ -94,10 +39,6 @@ async function doQJack( obj ) {
 		replyJack.setThumbnail(imageJack[1]);
 		replyJack.setDescription(quoteItem);
 		obj.message.channel.send(replyJack);
-
-		//{
-			//return await doQJack( obj );
-		//};
 	}
 
 	//if the above fails...
@@ -127,22 +68,13 @@ async function doQLotto(obj) {
 	};
 
 
-{
+/*{
 		doQuote: async ( obj ) => {
 			return await doQuote( obj );
-		},
-		doQTorgue: async ( obj ) => {
-			return await doQTorgue( obj );
-		},
-		doQPsycho: async ( obj ) => {
-			return await doQPsycho( obj );
 		},
 		doQJack: async ( obj ) => {
 			return await doQJack( obj );
 		},
-		doQLotto: async ( obj ) => {
-			return await doQLotto( obj );
-		}
-}
+}*/
 
 };

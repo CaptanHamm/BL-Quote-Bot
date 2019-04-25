@@ -1,4 +1,4 @@
-module.exports = async ( client, message, require, doQuote, doQTorgue, doQPsycho, doQJack, doQLotto ) => {
+module.exports = async ( client, message, doQuote, doQPsycho ) => {
 
 function getRandomInt(max)
 {
@@ -126,7 +126,7 @@ async function doQLotto(obj) {
 	  }
 	};
 
-
+/**
 {
 		doQuote: async ( obj ) => {
 			return await doQuote( obj );
@@ -144,5 +144,5 @@ async function doQLotto(obj) {
 			return await doQLotto( obj );
 		}
 }
-
+**/
 };

@@ -1,5 +1,3 @@
-module.exports = async ( client, message, require, doQuote, doQTorgue, doQPsycho, doQJack, doQLotto ) => {
-
 function getRandomInt(max)
 {
 	return Math.floor(Math.random()*Math.floor(max));
@@ -38,12 +36,7 @@ async function doQTorgue( obj ) {
         replyTorgue.setThumbnail(imageTorgue[1]);
 		replyTorgue.setDescription(quoteItem);
 		obj.message.channel.send(replyTorgue);
-
-		//{
-			//return await doQTorgue( obj );
-		//};
 	}
-
 	//if all else fails....
 	catch(e) {
 		obj.error('quote.doQTorque',e);
@@ -66,12 +59,7 @@ async function doQPsycho( obj ) {
 		replyPsycho.setThumbnail(imagePsycho[1]);
 		replyPsycho.setDescription(quoteItem);
 		obj.message.channel.send(replyPsycho);
-
-		//{
-			//return await doQPsycho( obj );
-		//};
-	}
-
+		}
 	//if all else fails....
 	catch(e) {
 		obj.error('quote.doQPsycho',e);
@@ -94,12 +82,7 @@ async function doQJack( obj ) {
 		replyJack.setThumbnail(imageJack[1]);
 		replyJack.setDescription(quoteItem);
 		obj.message.channel.send(replyJack);
-
-		//{
-			//return await doQJack( obj );
-		//};
 	}
-
 	//if the above fails...
 	catch(e) {
 		obj.error('quote.doQJack',e);
@@ -126,8 +109,7 @@ async function doQLotto(obj) {
 	  }
 	};
 
-
-{
+module.exports = {
 		doQuote: async ( obj ) => {
 			return await doQuote( obj );
 		},
@@ -143,6 +125,5 @@ async function doQLotto(obj) {
 		doQLotto: async ( obj ) => {
 			return await doQLotto( obj );
 		}
-}
 
 };
