@@ -109,7 +109,7 @@ async function doQLotto(obj) {
 	  }
 	};
 
-module.exports = {
+module.exports = async ( client, message ) => {
 		doQuote: async ( obj ) => {
 			return await doQuote( obj );
 		},
