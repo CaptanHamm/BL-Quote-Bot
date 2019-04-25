@@ -5,12 +5,12 @@ function getRandomInt(max) {
 };
 
 const authorImage = 'http://static.tumblr.com/a295b37dd192646fa1fd7fb66092af0f/djayg0e/04Ensfpqb/tumblr_static_6rqhssg0lxk4kwoko40cs8ws8.png';
-const thumbImage = ['Mad Moxxi', 'https://i.pinimg.com/236x/b1/35/50/b135503b2dc52d5cf6bea2481edd511f.jpg'];
+const thumbImage = ['Tiny Tina', 'https://vignette.wikia.nocookie.net/borderlands/images/a/ab/Tiny_Tina-transparent-sm.png/revision/latest/window-crop/width/160/x-offset/0/y-offset/25/window-width/360/window-height/270?cb=20180419192706'];
 let embed = {};
 
     try {
 
-        let quotes = require("./Quotes.json")["Moxxi"];
+        let quotes = require("./Quotes.json")["Tina"];
         let quoteItem = quotes[getRandomInt(quotes.length)-1];
 
         embed.color = 0xf0ff00;
