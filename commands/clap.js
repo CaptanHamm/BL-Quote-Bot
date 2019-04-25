@@ -1,5 +1,22 @@
 module.exports = async (client, message) => {
+	try {
 
+		let embed = {};
+
+		embed.title = client.user.username+" WIP";
+		embed.description += 'Still adding these quotes\n';
+		embed.color = 0x2A6EBB;
+		embed.timestamp = new Date();
+
+		message.react('ℹ');
+		message.channel.send({embed});
+
+	} catch(e) {
+		throw e;
+	}
+	
+
+/*
 function getRandomInt(max) {
     return Math.floor(Math.random()*Math.floor(max));
 };
@@ -37,5 +54,5 @@ let embed = {};
         return message.channel.send({embed});
 
     }
-
+*/
 };
