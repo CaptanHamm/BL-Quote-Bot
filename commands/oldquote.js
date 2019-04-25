@@ -7,6 +7,9 @@ const authorImage = 'http://static.tumblr.com/a295b37dd192646fa1fd7fb66092af0f/d
 const imageTorgue = ['Mr. Torgue', 'http://img3.wikia.nocookie.net/__cb20140124073840/fallout/images/7/79/TOCI_Mr_Torgue.jpg'];
 const imagePsycho = ['Ramblings from a Psycho', 'https://orig00.deviantart.net/0e03/f/2012/228/6/c/borderlands_2____cover_bandit_render_by_pascuarts-d5bbx0i.png'];
 const imageJack = ['Handsome Jack', 'https://pm1.narvii.com/5901/da5b655b2303fa7dc7e81fd9deee5fa3cf735fc3_hq.jpg'];
+const imageClap = [''];
+const imageTina = [''];
+const imageMoxxi = [''];
 
 async function doQuote( obj ) {
 	try {
