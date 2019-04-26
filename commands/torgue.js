@@ -4,21 +4,21 @@ module.exports = async (client, message) => {
 	};
 	let embed = {};
 		try {
-			let data = require("./bl.json")
-			let char = data.characters.find(t => t.name === "Torgue")
+			let data = require('./bl.json')
+			let char = data.characters.find(t => t.name === 'Torgue')
 			let quotes = char.data.quotes
 			let number = getRandomInt(quotes.length) - 1
 			let quote = quotes[Math.max(0, number)]
 			embed.color = char.data.color
 			embed.thumbnail = {
-				"url": char.data.imageURL,
-				"width": 150,
-				"height": 200
+				'url': char.data.imageURL,
+				'width': 150,
+				'height': 200
 			}
 			embed.author = {
-				"name": char.data.title,
-				"url": data.website,
-				"icon_url": data.iconURL
+				'name': char.data.title,
+				'url': data.website,
+				'icon_url': data.iconURL
 			}
 			embed.description = quote
 			embed.timestamp = new Date()
