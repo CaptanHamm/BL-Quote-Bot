@@ -1,5 +1,4 @@
 module.exports = async (client, message) => {
-
 function getRandomInt(max) {
     return Math.floor(Math.random()*Math.floor(max));
 };
@@ -19,7 +18,7 @@ let embed = {};
         embed.description = quoteItem;
         embed.timestamp = new Date();
         return message.channel.send({embed});
-			} 
+			}
 			catch(e) {
 			        console.log(e.message);
 			        embed.color = 0x2ad68c;
