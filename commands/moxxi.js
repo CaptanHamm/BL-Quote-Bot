@@ -1,29 +1,34 @@
 module.exports = async (client, message) => {
-function getRandomInt(max) {
-    return Math.floor(Math.random()*Math.floor(max));
-};
-const authorImage = 'http://static.tumblr.com/a295b37dd192646fa1fd7fb66092af0f/djayg0e/04Ensfpqb/tumblr_static_6rqhssg0lxk4kwoko40cs8ws8.png';
-const thumbImage = ['Mad Moxxi', 'https://i.pinimg.com/236x/b1/35/50/b135503b2dc52d5cf6bea2481edd511f.jpg'];
-let embed = {};
-    try {
-        let quotes = require("./Quotes.json")["Moxxi"];
-        let quoteItem = quotes[getRandomInt(quotes.length)-1];
-        embed.color = 0xf0ff00;
-        embed.thumbnail = {"url": thumbImage[1]};
-        embed.author = {
-            "name": thumbImage[0],
-            "url": "https://borderlands.com",
-            "icon_url": authorImage
-        };
-        embed.description = quoteItem;
-        embed.timestamp = new Date();
-        return message.channel.send({embed});
-    } catch(e) {
-        console.log(e.message);
-        embed.color = 0x2ad68c;
-        embed.title = 'Whoopsie!';
-        embed.description = 'Something ... err ... went wrong. Git Gud!';
-        embed.timestamp = new Date();
-        return message.channel.send({embed});
-    }
+	function getRandomInt(max) {
+		return Math.floor(Math.random()*Math.floor(max));
+	};
+	let embed = {};
+	try {
+		let data = require('./bl.json')
+		let char = data.characters.find(t => t.name === 'Moxxi')
+		let quotes = char.data.quotes
+		let number = getRandomInt(quotes.length) - 1
+		let quote = quotes[Math.max(0, number)]
+		embed.color = char.data.color
+		embed.thumbnail = {
+			'url': char.data.imageURL,
+			'width': 150,
+			'height': 200
+		}
+		embed.author = {
+			'name': char.data.title,
+			'url': data.website,
+			'icon_url': data.iconURL
+		}
+		embed.description = quote
+		embed.timestamp = new Date()
+		return message.channel.send({embed})
+	} catch(e) {
+	 	console.log(e.message);
+	 	embed.color = 0x2ad68c;
+	 	embed.title = 'Whoopsie!';
+	 	embed.description = 'Something ... err ... went wrong. Git Gud Foolio!';
+	 	embed.timestamp = new Date();
+	 	return message.channel.send({embed});
+	 }
 };
