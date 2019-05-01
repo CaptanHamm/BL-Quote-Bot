@@ -1,10 +1,10 @@
 module.exports = async (client, message) => {
   try {
     let embed = {};
-    embed.title = client.user.username + " help";
-    embed.description = "`------------------------------`\n";
-    embed.description += "This is help...\n";
-    embed.description += "`------------------------------`\n";
+    embed.title = "HELP";
+    embed.description = "Need help with the commands for this bot???\n";
+    embed.description += "Read on below:\n";
+    embed.description += "```md\n";
     embed.description += "`Help --------- help, h`\n";
     embed.description += "`Displays this message`\n";
     embed.description += "`Quote --------- q quote`\n";

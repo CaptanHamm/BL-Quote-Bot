@@ -8,7 +8,7 @@
 				"name": "Torgue",
 				"title": "Mr. Torgue",
 				"color": 31926,
-				"imageURL": "https://cdn.discordapp.com/attachments/568170916098342914/571439289376964647/torgue.jpg",
+				"imageURL": "https://imgur.com/Q97zgAT",
 				"fandom": "https://borderlands.fandom.com/wiki/Torgue",
 				"quotes": [
 					"KIDS THESE DAYS AND THEIR CRAZY LANGUAGE AM I RIGHT!?", "A LOT OF PEOPLE BEEN ASKING ME WHY MY VOICE BEEPS ALL THE F\\*CKIN TIME. THE TORGUE SHAREHOLDERS WIRED MY VOICEBOX WITH A DIGITAL CENSOR SO I CAN'T SAY STUFF LIKE SH\\*T, C\\*CK, OR P\\*SSY F\\*CKIN' D\\*CKBALLS! THATS HALF MY F\\*CKIN' VOCABULARY, IT'S GODDAMN BULLSH\\*T!",
@@ -47,12 +47,12 @@
 			}
 		},
 		{
-			"name":"Psycho",
+			"name":"Krieg",
 			"data": {
-				"name": "Psycho",
-				"title": "Ramblings from a Psycho",
+				"name": "Krieg",
+				"title": "Conductor of the Poop Train",
 				"color": 16711680,
-				"imageURL": "https://orig00.deviantart.net/0e03/f/2012/228/6/c/borderlands_2____cover_bandit_render_by_pascuarts-d5bbx0i.png",
+				"imageURL": "https://imgur.com/aL2gBoH",
 				"fandom": "https://borderlands.fandom.com/wiki/Psycho",
 				"quotes": [
 					"Crack the ribcage to get the goodies!",
@@ -159,9 +159,9 @@
 			"name":"Brick",
 			"data": {
 				"name": "Brick",
-				"title": "Brick",
+				"title": "Brick - Slab King",
 				"color": 13632516,
-				"imageURL": "https://c2.staticflickr.com/8/7275/7083730531_25ec07c439_z.jpg",
+				"imageURL": "https://imgur.com/tS6awgf",
 				"fandom": "https://borderlands.fandom.com/wiki/Brick",
 				"quotes": [
 					"Intruder, huh? Sounds like Hyperion sent another assassin! Alrights, boys: Fight like badasses, or die like bitches!",
@@ -222,7 +222,7 @@
 				"name": "Moxxi",
 				"title": "Max Moxxi",
 				"color": 16715460,
-				"imageURL": "https://i.pinimg.com/originals/e4/1a/4c/e41a4c43e5c547993bb53027996ef344.jpg",
+				"imageURL": "./img/moxxi.jpg",
 				"fandom": "https://borderlands.fandom.com/wiki/Max_Moxxi",
 				"quotes": [
 					"What can I do you for? Wait... I'm not that kind of girl... Wait... Yes I am...",
@@ -270,7 +270,7 @@
 				"name": "Claptrap",
 				"title": "CL4P-TP",
 				"color": 16514335,
-				"imageURL": "https://i.pinimg.com/736x/69/c1/5b/69c15baac2c4e74c5e51c6e9b72b8652.jpg",
+				"imageURL": "https://imgur.com/lHaLBCx",
 				"fandom": "https://borderlands.fandom.com/wiki/Claptrap",
 				"quotes": [
 					"Allow me to introduce myself -- I am a CL4P-TP steward robot, but my friends call me Claptrap! Or they would, if any of them were still alive. Or had existed in the first place! Oh -- I’ve got something for you!",
@@ -394,7 +394,7 @@
 				"name": "Tina",
 				"title": "Tiny Tina",
 				"color": 16740579,
-				"imageURL": "https://i.pinimg.com/736x/7c/19/ff/7c19ff1959aa98c2e0e390636f44f4ea--borderlands-cosplay-news-games.jpg",
+				"imageURL": "https://imgur.com/09hmy4w",
 				"fandom": "https://borderlands.fandom.com/wiki/Tiny_Tina",
 				"quotes": [
 					"Oh haiiii!",
