@@ -6,9 +6,9 @@
 			"name":"Torgue",
 			"data": {
 				"name": "Torgue",
-				"title": "Mr. Torgue",
+				"title": "Mr. Torgue...FLEXINGTON",
 				"color": 31926,
-				"imageURL": "https://imgur.com/Q97zgAT",
+				"imageURL": "https://imgur.com/Q97zgAT.jpg",
 				"fandom": "https://borderlands.fandom.com/wiki/Torgue",
 				"quotes": [
 					"KIDS THESE DAYS AND THEIR CRAZY LANGUAGE AM I RIGHT!?", "A LOT OF PEOPLE BEEN ASKING ME WHY MY VOICE BEEPS ALL THE F\\*CKIN TIME. THE TORGUE SHAREHOLDERS WIRED MY VOICEBOX WITH A DIGITAL CENSOR SO I CAN'T SAY STUFF LIKE SH\\*T, C\\*CK, OR P\\*SSY F\\*CKIN' D\\*CKBALLS! THATS HALF MY F\\*CKIN' VOCABULARY, IT'S GODDAMN BULLSH\\*T!",
@@ -52,7 +52,7 @@
 				"name": "Krieg",
 				"title": "Conductor of the Poop Train",
 				"color": 16711680,
-				"imageURL": "https://imgur.com/aL2gBoH",
+				"imageURL": "https://imgur.com/aL2gBoH.jpg",
 				"fandom": "https://borderlands.fandom.com/wiki/Psycho",
 				"quotes": [
 					"Crack the ribcage to get the goodies!",
@@ -161,7 +161,7 @@
 				"name": "Brick",
 				"title": "Brick - Slab King",
 				"color": 13632516,
-				"imageURL": "https://imgur.com/tS6awgf",
+				"imageURL": "https://imgur.com/tS6awgf.jpg",
 				"fandom": "https://borderlands.fandom.com/wiki/Brick",
 				"quotes": [
 					"Intruder, huh? Sounds like Hyperion sent another assassin! Alrights, boys: Fight like badasses, or die like bitches!",
@@ -222,7 +222,7 @@
 				"name": "Moxxi",
 				"title": "Max Moxxi",
 				"color": 16715460,
-				"imageURL": "./img/moxxi.jpg",
+				"imageURL": "https://i.imgur.com/nsnjo5q.jpg",
 				"fandom": "https://borderlands.fandom.com/wiki/Max_Moxxi",
 				"quotes": [
 					"What can I do you for? Wait... I'm not that kind of girl... Wait... Yes I am...",
@@ -270,7 +270,7 @@
 				"name": "Claptrap",
 				"title": "CL4P-TP",
 				"color": 16514335,
-				"imageURL": "https://imgur.com/lHaLBCx",
+				"imageURL": "https://imgur.com/lHaLBCx.jpg",
 				"fandom": "https://borderlands.fandom.com/wiki/Claptrap",
 				"quotes": [
 					"Allow me to introduce myself -- I am a CL4P-TP steward robot, but my friends call me Claptrap! Or they would, if any of them were still alive. Or had existed in the first place! Oh -- I’ve got something for you!",
@@ -394,7 +394,7 @@
 				"name": "Tina",
 				"title": "Tiny Tina",
 				"color": 16740579,
-				"imageURL": "https://imgur.com/09hmy4w",
+				"imageURL": "https://imgur.com/09hmy4w.jpg",
 				"fandom": "https://borderlands.fandom.com/wiki/Tiny_Tina",
 				"quotes": [
 					"Oh haiiii!",

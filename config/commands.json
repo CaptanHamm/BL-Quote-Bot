@@ -1,0 +1,15 @@
+{
+  "commands": {
+    "help": "help.js",
+    "invite": "invite.js",
+    "jack": "jack.js",
+    "torgue": "torgue.js",
+    "psycho": "psycho.js",
+    "moxxi": "moxxi.js",
+    "clap": "clap.js",
+    "brick": "brick.js",
+    "tina": "tina.js",
+    "tits": "test.js",
+    "krieg": "krieg.js"
+  }
+}

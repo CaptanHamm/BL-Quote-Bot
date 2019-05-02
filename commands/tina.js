@@ -12,8 +12,8 @@ module.exports = async (client, message) => {
 			embed.color = char.data.color
 			embed.thumbnail = {
 				'url': char.data.imageURL,
-				'width': 150,
-				'height': 200
+				'width': 256,
+				'height': 256
 			}
 			embed.author = {
 				'name': char.data.title,

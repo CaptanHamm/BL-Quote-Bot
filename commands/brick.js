@@ -11,9 +11,9 @@ module.exports = async (client, message) => {
 		let quote = quotes[Math.max(0, number)]
 		embed.color = char.data.color
 		embed.thumbnail = {
-			"url": char.data.imageURL,
-			"width": 150,
-			"height": 200
+			'url': char.data.imageURL,
+			'width': 256,
+			'height': 256
 		}
 		embed.author = {
 			"name": char.data.title,

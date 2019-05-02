@@ -93,7 +93,7 @@ client.on('warn', async (info) => {
 client.on('message', async (message) => {
 
 	/** Ignore conditions **/
-	if( message.author.bot ) { return; }
+	if( message.author.settings ) { return; }
 	if( !message.content.startsWith(client.settings.prefix) ) { return; }
 
 	try {
