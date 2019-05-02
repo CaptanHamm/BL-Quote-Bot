@@ -14,7 +14,7 @@ Required: node.js 8+
 
 /config/settings.json
 
-Edit the settings file with your own details
+Edit the settings file with your own details such as Bot Token and Prefix used to invoke commands
 
 ## Run it
 
