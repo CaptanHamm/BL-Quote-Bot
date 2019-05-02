@@ -1,6 +1,6 @@
 module.exports = async (client, message) => {
-  function getRandomInt (max) {
-    return Math.floor(Math.random() * Math.floor(max))
+  function getRandomInt(max) {
+    return Math.floor(Math.random()*Math.floor(max))
   };
   let embed = {}
   try {
@@ -10,7 +10,8 @@ module.exports = async (client, message) => {
     let number = getRandomInt(quotes.length) - 1
     let quote = quotes[Math.max(0, number)]
     embed.color = char.data.color
-    embed.thumbnail = {
+    embed.footer = 'Created by: Captain Hammer & KaosZman'
+    embed.image = {
       'url': char.data.imageURL,
 			'width': 256,
 			'height': 256
@@ -22,13 +23,13 @@ module.exports = async (client, message) => {
     }
     embed.description = quote
     embed.timestamp = new Date()
-    return message.channel.send({ embed })
-  } catch (e) {
+    return message.channel.send({embed})
+  } catch(e) {
     console.log(e.message)
     embed.color = 0x2ad68c
     embed.title = 'Whoopsie!'
-    embed.description = 'Something ... err ... went wrong. Git Gud Foolio!'
+    embed.description = 'Wait, thats not right!'
     embed.timestamp = new Date()
-    return message.channel.send({ embed })
-  }
-}
+    return message.channel.send({embed})
+   }
+};
