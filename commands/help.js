@@ -5,7 +5,7 @@ module.exports = async (client, message) => {
 		//embed.title = 'HELP!'
 		embed.color = 15146284;
 		embed.footer = {
-      'text':'Created by: Captain Hammer & KaosZman'
+      'text':'Created by: CaptainHammer & KaosZman'
     }
 		embed.thumbnail = {
 			'url': 'https://i.imgur.com/WbwKZGI.png'

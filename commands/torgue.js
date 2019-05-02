@@ -11,7 +11,7 @@ module.exports = async (client, message) => {
     let quote = quotes[Math.max(0, number)];
     embed.color = char.data.color;
     embed.footer = {
-      'text':'Created by: Captain Hammer & KaosZman'
+      'text':'Created by: CaptainHammer & KaosZman'
     }
     embed.thumbnail = {
       'url': char.data.imageURL,
