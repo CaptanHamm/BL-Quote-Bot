@@ -4,7 +4,9 @@ module.exports = async (client, message) => {
 		let embed = {}
 		//embed.title = 'HELP!'
 		embed.color = 15146284;
-		embed.footer = 'Created by: Captain Hammer & KaosZman'
+		embed.footer = {
+      'text':'Created by: Captain Hammer & KaosZman'
+    }
 		embed.thumbnail = {
 			'url': 'https://i.imgur.com/WbwKZGI.png'
 		}
@@ -49,7 +51,7 @@ module.exports = async (client, message) => {
 					'inline': true
 				},
 				{
-					'name': '`___________________________________________________`',
+					'name': '`:___________________________________________________:`',
 					'value': '\u200B'
 				},
 				{
@@ -63,7 +65,7 @@ module.exports = async (client, message) => {
 					'inline': false
 				},
         {
-					'name': '`___________________________________________________`',
+					'name': '`:___________________________________________________:`',
 					'value': '\u200B'
 				}
 			],

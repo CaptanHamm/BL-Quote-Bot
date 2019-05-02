@@ -10,7 +10,9 @@ module.exports = async (client, message) => {
 		let number = getRandomInt(quotes.length) - 1
 		let quote = quotes[Math.max(0, number)]
 		embed.color = char.data.color
-		embed.footer = 'Created by: Captain Hammer & KaosZman'
+		embed.footer = {
+      'text':'Created by: Captain Hammer & KaosZman'
+    }
 		embed.image = {
 			'url': char.data.imageURL,
 			'width': 256,
