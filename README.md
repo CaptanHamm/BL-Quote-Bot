@@ -24,12 +24,12 @@ Edit the bot.json file with your own details such as Bot Token and Prefix used t
 
 /commands/
 
-Create a new command file for your command. See help.js and invite.js for basic command structure.
+Create a new command file for your command. See help.js and example.js for basic command structure.
 
 Edit the settings file and add your new command file to the commands portion of the settings.
 
-**Note:** *The name you give in settings __is__ the command*
-Example, in settings, the command for **help.js** is **help**
+**Note:** *The name you give in the bot.json file __is__ the command*
+Example, in bot.json, the command for **help.js** is **help**
 
 	"help":"help.js"
 
