@@ -1,17 +1,37 @@
-module.exports = async ( client, message ) => {
-	try {
-		let embed = {};
-		embed.title = "Random Borderlands Quote";
-		embed.description = '`------------------------------------`\n';
-		embed.description += 'This command is under construction! \n';
-		embed.description += '`------------------------------------`\n';
-		embed.description += "Check back later and see if it works! \n";
-		embed.description += '`------------------------------------`\n\n';
-		embed.color = 0x2A6EBB;
-		embed.timestamp = new Date();
-		message.react('ℹ');
-		message.channel.send({embed});
-	} catch(e) {
-		throw e;
-	}
-}
+module.exports = async (client, message) => {
+  function getRandomInt(max) {
+    return Math.floor(Math.random()*Math.floor(max))
+  };
+  let embed = {}
+  try {
+    let data = require('./bl.json')
+    let char = data.characters.find(t => t.name === 'Hammerlock')
+    let quotes = char.data.quotes
+    let number = getRandomInt(quotes.length) - 1
+    let quote = quotes[Math.max(0, number)]
+    embed.color = char.data.color
+    embed.footer = {
+      'text':'Created by: CaptainHammer & KaosZman'
+    }
+    embed.thumbnail = {
+      'url': char.data.imageURL,
+			'width': 256,
+			'height': 256
+    }
+    embed.author = {
+      'name': char.data.title,
+      'url': data.website,
+      'icon_url': data.iconURL
+    }
+    embed.description = quote
+    embed.timestamp = new Date()
+    return message.channel.send({embed})
+  } catch(e) {
+    console.log(e.message)
+    embed.color = 0x2ad68c
+    embed.title = 'Whoopsie!'
+    embed.description = 'Wait, thats not right!'
+    embed.timestamp = new Date()
+    return message.channel.send({embed})
+   }
+};
