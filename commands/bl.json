@@ -224,7 +224,7 @@
 				"name": "Moxxi",
 				"title": "Max Moxxi",
 				"color": 16715460,
-				"imageURL": "https://i.imgur.com/nsnjo5q.jpg",
+				"imageURL": "https://i.imgur.com/6RcXJg9.png",
 				"fandom": "https://borderlands.fandom.com/wiki/Max_Moxxi",
 				"quotes": [
 					"What can I do you for? Wait... I'm not that kind of girl... Wait... Yes I am...",
@@ -522,7 +522,7 @@
 				]
 			}
 		},
-		{"AXTON"
+		{
 			"name":"Axton",
 			"data": {
 				"name": "Axton",
@@ -531,15 +531,12 @@
 				"imageURL": "https://i.imgur.com/TaLBkPR.jpg",
 				"fandom": "https://borderlands.fandom.com/wiki/Axton",
 				"quotes": [
-					"",
-					"",
-					"",
-					"",
-					""
+					"test1",
+					"test2"
 				]
 			}
 		},
-		{"GAIGE"
+		{
 			"name":"Gaige",
 			"data": {
 				"name": "Gaige",
@@ -548,113 +545,148 @@
 				"imageURL": "https://i.imgur.com/8PlIgZy.jpg",
 				"fandom": "https://borderlands.fandom.com/wiki/Gaige",
 				"quotes": [
-					"",
-					"",
-					"",
-					"",
-					""
+					"test1",
+					"test2"
 				]
 			}
 		},
-		{"LILITH"
+		{
 			"name":"Lilith",
 			"data": {
 				"name": "Lilith",
 				"title": "Lilith - The Firehawk",
 				"color": 16711680,
 				"imageURL": "https://i.imgur.com/ivSv20A.jpg",
-				"fandom": "https://borderlands.fandom.com/wiki/Psycho",
+				"fandom": "https://borderlands.fandom.com/wiki/Lilith",
 				"quotes": [
-					"",
-					"",
-					"",
-					"",
-					""
+					"test1",
+					"test2"
 				]
 			}
 		},
-		{"MAYA"
+		{
 			"name":"Maya",
 			"data": {
 				"name": "Maya",
 				"title": "Maya",
 				"color": 16711680,
 				"imageURL": "https://i.imgur.com/W8ZQura.jpg",
-				"fandom": "https://borderlands.fandom.com/wiki/Psycho",
+				"fandom": "https://borderlands.fandom.com/wiki/Maya",
 				"quotes": [
-					"",
-					"",
-					"",
-					"",
-					""
+					"test1",
+					"test2"
 				]
 			}
 		},
-		{"MORDECAI"
+		{
 			"name":"Mordecai",
 			"data": {
 				"name": "Mordecai",
 				"title": "Mordecai",
 				"color": 16711680,
 				"imageURL": "https://i.imgur.com/3zyHSX1.jpg",
-				"fandom": "https://borderlands.fandom.com/wiki/Psycho",
+				"fandom": "https://borderlands.fandom.com/wiki/Mordecai",
 				"quotes": [
-					"",
-					"",
-					"",
-					"",
-					""
+					"test1",
+					"test2"
 				]
 			}
 		},
-		{"ROLAND"
+		{
 			"name":"Roland",
 			"data": {
 				"name": "Roland",
 				"title": "Roland",
 				"color": 16711680,
 				"imageURL": "https://i.imgur.com/OqVLEbz.jpg",
-				"fandom": "https://borderlands.fandom.com/wiki/Psycho",
+				"fandom": "https://borderlands.fandom.com/wiki/Roland",
 				"quotes": [
-					"",
-					"",
-					"",
-					"",
-					""
+					"test1",
+					"test2"
 				]
 			}
 		},
-		{"SALVADOR"
+		{
 			"name":"Salvador",
 			"data": {
 				"name": "Salvador",
 				"title": "Salvador",
 				"color": 16711680,
 				"imageURL": "https://i.imgur.com/Ibbv7B3.jpg",
-				"fandom": "https://borderlands.fandom.com/wiki/Psycho",
+				"fandom": "https://borderlands.fandom.com/wiki/Salvador",
 				"quotes": [
-					"",
-					"",
-					"",
-					"",
-					""
+					"test1",
+					"test2"
 				]
 			}
 		},
-		{"ZERO"
+		{
 			"name":"Zer0",
 			"data": {
 				"name": "Zer0",
 				"title": "Zer0",
 				"color": 16711680,
 				"imageURL": "https://i.imgur.com/AgXffVA.jpg",
-				"fandom": "https://borderlands.fandom.com/wiki/Psycho",
+				"fandom": "https://borderlands.fandom.com/wiki/Zer0",
 				"quotes": [
-					"",
-					"",
-					"",
-					"",
-					""
+					"test1",
+					"test2"
+				]
+			}
+		},
+		{
+			"name":"Hammerlock",
+			"data": {
+				"name": "Sir Hammerlock",
+				"title": "Sir Hammerlock",
+				"color": ,
+				"imageURL": "",
+				"fandom": "https://borderlands.fandom.com/wiki/Sir_Hammerlock",
+				"quotes": [
+					"test1",
+					"test2"
+				]
+			}
+		},
+		{
+			"name":"Marcus",
+			"data": {
+				"name": "Marcus Kincaid",
+				"title": "Marcus - No Refunds",
+				"color": ,
+				"imageURL": "https://i.imgur.com/OqVLEbz.jpg",
+				"fandom": "https://borderlands.fandom.com/wiki/Marcus_Kincaid",
+				"quotes": [
+					"test1",
+					"test2"
+				]
+			}
+		},
+		{
+			"name":"Zed",
+			"data": {
+				"name": "Dr. Zed",
+				"title": "Dr. Zed - Not a real doctor.",
+				"color": ,
+				"imageURL": "",
+				"fandom": "https://borderlands.fandom.com/wiki/Dr._Zed",
+				"quotes": [
+					"test1",
+					"test2"
+				]
+			}
+		},
+		{
+			"name":"Tannis",
+			"data": {
+				"name": "Dr. Patricia Tannis",
+				"title": "Dr. Patricia Tannis",
+				"color": ,
+				"imageURL": "",
+				"fandom": "https://borderlands.fandom.com/wiki/Patricia_Tannis",
+				"quotes": [
+					"test1",
+					"test2"
 				]
 			}
 		}
