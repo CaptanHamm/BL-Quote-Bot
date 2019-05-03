@@ -59,4 +59,6 @@ typings/
 
 .settings/
 .project
-config/settings.json
+config/bot.json
+./commandsCopy
+./commands/oldCommands

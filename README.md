@@ -1,7 +1,6 @@
-# BasicBot
+# BL-Quote-Bot
 
-Super simple discord bot shell for building your own discord bots
-
+Bot designed to quote characters from the Borderlands Universe
 
 ## Installation
 
@@ -13,15 +12,13 @@ Required: node.js 8+
 
 ### Edit your settings
 
-/config/settings.json
+Make a copy of the "/config/settings.json" file, and name it "bot.json"
 
-Edit the settings file with your own details
-
+Edit the bot.json file with your own details such as Bot Token and Prefix used to invoke commands
 
 ## Run it
 
 	node app
-
 
 ## Adding new commands
 
@@ -43,13 +40,11 @@ The same file may be defined multiple times to provide command aliases
 	"help":"help.js"
 	"h":"help.js"
 
-
 ## Editing startup and shutdown
 
 */utilities/startUp.js*
 
 This file initiates anything that needs to be built during startup
-
 
 */utilities/shutDown.js*
 
