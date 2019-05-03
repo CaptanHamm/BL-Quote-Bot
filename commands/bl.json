@@ -521,6 +521,142 @@
 					"Girl, you fine. You know it."
 				]
 			}
+		},
+		{"AXTON"
+			"name":"Axton",
+			"data": {
+				"name": "Axton",
+				"title": "Axton",
+				"color": 16711680,
+				"imageURL": "https://i.imgur.com/TaLBkPR.jpg",
+				"fandom": "https://borderlands.fandom.com/wiki/Axton",
+				"quotes": [
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			}
+		},
+		{"GAIGE"
+			"name":"Gaige",
+			"data": {
+				"name": "Gaige",
+				"title": "Gaige",
+				"color": 16711680,
+				"imageURL": "https://i.imgur.com/8PlIgZy.jpg",
+				"fandom": "https://borderlands.fandom.com/wiki/Gaige",
+				"quotes": [
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			}
+		},
+		{"LILITH"
+			"name":"Lilith",
+			"data": {
+				"name": "Lilith",
+				"title": "Lilith - The Firehawk",
+				"color": 16711680,
+				"imageURL": "https://i.imgur.com/ivSv20A.jpg",
+				"fandom": "https://borderlands.fandom.com/wiki/Psycho",
+				"quotes": [
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			}
+		},
+		{"MAYA"
+			"name":"Maya",
+			"data": {
+				"name": "Maya",
+				"title": "Maya",
+				"color": 16711680,
+				"imageURL": "https://i.imgur.com/W8ZQura.jpg",
+				"fandom": "https://borderlands.fandom.com/wiki/Psycho",
+				"quotes": [
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			}
+		},
+		{"MORDECAI"
+			"name":"Mordecai",
+			"data": {
+				"name": "Mordecai",
+				"title": "Mordecai",
+				"color": 16711680,
+				"imageURL": "https://i.imgur.com/3zyHSX1.jpg",
+				"fandom": "https://borderlands.fandom.com/wiki/Psycho",
+				"quotes": [
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			}
+		},
+		{"ROLAND"
+			"name":"Roland",
+			"data": {
+				"name": "Roland",
+				"title": "Roland",
+				"color": 16711680,
+				"imageURL": "https://i.imgur.com/OqVLEbz.jpg",
+				"fandom": "https://borderlands.fandom.com/wiki/Psycho",
+				"quotes": [
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			}
+		},
+		{"SALVADOR"
+			"name":"Salvador",
+			"data": {
+				"name": "Salvador",
+				"title": "Salvador",
+				"color": 16711680,
+				"imageURL": "https://i.imgur.com/Ibbv7B3.jpg",
+				"fandom": "https://borderlands.fandom.com/wiki/Psycho",
+				"quotes": [
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			}
+		},
+		{"ZERO"
+			"name":"Zer0",
+			"data": {
+				"name": "Zer0",
+				"title": "Zer0",
+				"color": 16711680,
+				"imageURL": "https://i.imgur.com/AgXffVA.jpg",
+				"fandom": "https://borderlands.fandom.com/wiki/Psycho",
+				"quotes": [
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			}
 		}
 	]
 }

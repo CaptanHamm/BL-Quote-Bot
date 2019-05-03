@@ -12,9 +12,9 @@ Required: node.js 8+
 
 ### Edit your settings
 
-/config/settings.json
+Make a copy of the "/config/settings.json" file, and name it "bot.json"
 
-Edit the settings file with your own details such as Bot Token and Prefix used to invoke commands
+Edit the bot.json file with your own details such as Bot Token and Prefix used to invoke commands
 
 ## Run it
 

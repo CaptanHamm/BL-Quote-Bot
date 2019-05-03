@@ -10,7 +10,13 @@ module.exports = async (client, message) => {
 		embed.thumbnail = {
 			'url': 'https://i.imgur.com/WbwKZGI.png'
 		}
-		embed.fields = [{
+		embed.fields = [
+				{
+					'name': 'Axton',
+					'value': '-axton (WIP)',
+					'inline': true
+				},
+				{
 					'name': 'Brick',
 					'value': '-brick',
 					'inline': true
@@ -18,6 +24,11 @@ module.exports = async (client, message) => {
 				{
 					'name': 'Claptrap',
 					'value': '-clap',
+					'inline': true
+				},
+				{
+					'name': 'Gaige',
+					'value': '-gaige (WIP)',
 					'inline': true
 				},
 				{
@@ -31,6 +42,21 @@ module.exports = async (client, message) => {
 					'inline': true
 				},
 				{
+					'name': 'Lilith',
+					'value': '-lilith (WIP)',
+					'inline': true
+				},
+				{
+					'name': 'Maya',
+					'value': '-maya (WIP)',
+					'inline': true
+				},
+				{
+					'name': 'Mordecai',
+					'value': '-mordy (WIP)',
+					'inline': true
+				},
+				{
 					'name': 'Mad Moxxi',
 					'value': '-moxxi',
 					'inline': true
@@ -41,6 +67,16 @@ module.exports = async (client, message) => {
 					'inline': true
 				},
 				{
+					'name': 'Roland',
+					'value': '-roland (WIP)',
+					'inline': true
+				},
+				{
+					'name': 'Salvador',
+					'value': '-sal (WIP)',
+					'inline': true
+				},
+				{
 					'name': 'Tiny Tina',
 					'value': '-tina',
 					'inline': true
@@ -48,6 +84,11 @@ module.exports = async (client, message) => {
 				{
 					'name': 'Mr. Torgue Flexington',
 					'value': '-torgue',
+					'inline': true
+				},
+				{
+					'name': 'Zer0',
+					'value': '-zer0 (WIP)',
 					'inline': true
 				},
 				{
