@@ -92,10 +92,6 @@ module.exports = async (client, message) => {
 					'inline': true
 				},
 				{
-					'name': '`:___________________________________________________:`',
-					'value': '\u200B'
-				},
-				{
 					'name': '__Hidden Surprise!!!__',
 					'value': '*There is a hidden surprise for those that care to look for it.*',
 					'inline': false
@@ -104,10 +100,6 @@ module.exports = async (client, message) => {
 					'name': '__Invite__',
 					'value': 'Invite this bot to your server with:  **[-invite](https://discordapp.com/oauth2/authorize?client_id=570972433998151701&scope=bot&permissions=515136)**',
 					'inline': false
-				},
-        {
-					'name': '`:___________________________________________________:`',
-					'value': '\u200B'
 				}
 			],
 			embed.timestamp = new Date();
