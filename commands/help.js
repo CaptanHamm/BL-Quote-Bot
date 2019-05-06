@@ -1,6 +1,7 @@
 module.exports = async (client, message) => {
 	try {
 		let msg = '**```md\n# This bot displays a random quote from several Characters from the Borderlands Universe.\n\n< See below for the characters that are available to use now! >\n```**';
+		let hint = '*```md\n> Pssst, hey, hey you!\n> There is a hidden surprise for those that care to look for it.```*';
 		let embed = {}
 		//embed.title = 'HELP!'
 		embed.color = 15146284;
@@ -11,6 +12,11 @@ module.exports = async (client, message) => {
 			'url': 'https://i.imgur.com/WbwKZGI.png'
 		}
 		embed.fields = [
+				{
+					'name': '__Invite__',
+					'value': 'Invite this bot to your server with:  **[-invite](https://discordapp.com/oauth2/authorize?client_id=570972433998151701&scope=bot&permissions=515136)**',
+					'inline': false
+				},
 				{
 					'name': 'Axton',
 					'value': '-axton (WIP)',
@@ -32,6 +38,11 @@ module.exports = async (client, message) => {
 					'inline': true
 				},
 				{
+					'name': 'Sir Hammerlock',
+					'value': '-hammerlock',
+					'inline': true
+				},
+				{
 					'name': 'Handsome Jack',
 					'value': '-jack',
 					'inline': true
@@ -44,6 +55,11 @@ module.exports = async (client, message) => {
 				{
 					'name': 'Lilith',
 					'value': '-lilith (WIP)',
+					'inline': true
+				},
+				{
+					'name': 'Marcus',
+					'value': '-marcus',
 					'inline': true
 				},
 				{
@@ -77,6 +93,16 @@ module.exports = async (client, message) => {
 					'inline': true
 				},
 				{
+					'name': 'Scooter',
+					'value': '-scooter (WIP)',
+					'inline': true
+				},
+				{
+					'name': 'Dr. Patricia Tannis',
+					'value': '-tannis (WIP)',
+					'inline': true
+				},
+				{
 					'name': 'Tiny Tina',
 					'value': '-tina',
 					'inline': true
@@ -87,25 +113,24 @@ module.exports = async (client, message) => {
 					'inline': true
 				},
 				{
+					'name': 'Dr. Zed',
+					'value': '-zed (WIP)',
+					'inline': true
+				},
+				{
 					'name': 'Zer0',
 					'value': '-zer0 (WIP)',
 					'inline': true
 				},
-				{
-					'name': '__Hidden Surprise!!!__',
-					'value': '*There is a hidden surprise for those that care to look for it.*',
-					'inline': false
-				},
-				{
-					'name': '__Invite__',
-					'value': 'Invite this bot to your server with:  **[-invite](https://discordapp.com/oauth2/authorize?client_id=570972433998151701&scope=bot&permissions=515136)**',
-					'inline': false
-				}
+
 			],
 			embed.timestamp = new Date();
 		message.react('ℹ');
 		message.channel.send(msg)
-		return message.channel.send({ embed })
+		//message.channel.send(invite)
+		//message.channel.send(msg, hint, invite)
+		message.channel.send({ embed })
+		return message.channel.send(hint)
 	}
 	catch (e) {
 		throw e;

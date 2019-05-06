@@ -13,7 +13,7 @@ module.exports = async (client, message) => {
 		embed.footer = {
       'text':'Created by: CaptainHammer & KaosZman'
     }
-		embed.image = {
+		embed.thumbnail = {
 			'url': char.data.imageURL,
 			'width': 256,
 			'height': 256
