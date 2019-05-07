@@ -49,3 +49,5 @@ This file initiates anything that needs to be built during startup
 */utilities/shutDown.js*
 
 This file is used to close down any open connections, save caches, or garbage collect any stray data in order to ensure a graceful shutdown
+
+Shoutout to r3volved for the framework that I used to build this bot from!
