@@ -94,7 +94,7 @@ module.exports = async (client, message) => {
 				},
 				{
 					'name': 'Scooter',
-					'value': '-scooter (WIP)',
+					'value': '-scooter',
 					'inline': true
 				},
 				{
@@ -121,14 +121,11 @@ module.exports = async (client, message) => {
 					'name': 'Zer0',
 					'value': '-zer0 (WIP)',
 					'inline': true
-				},
-
+				}
 			],
-			embed.timestamp = new Date();
+		embed.timestamp = new Date();
 		message.react('ℹ');
 		message.channel.send(msg)
-		//message.channel.send(invite)
-		//message.channel.send(msg, hint, invite)
 		message.channel.send({ embed })
 		return message.channel.send(hint)
 	}

@@ -99,11 +99,20 @@ client.on('message', async (message) => {
 	try {
 
 		//Match command syntax
-		const cmdRegex = new RegExp("^("+client.settings.prefix+")(.[\\S]+)[\\s]*");
-		command = message.content.match(cmdRegex) ? message.content.match(cmdRegex)[2].trim() : null;
+		const args = message.content.slice(client.settings.prefix.length).trim().split(/ +/g)
+    const command = args.shift().toLowerCase()
 
 		/** Ignore condition **/
-		if( !command || !client.settings.commands[command] ) { return; }
+    if( !command || !client.settings.commands[command] ) {
+        return message.channel.send({
+            embed: {
+							color: 10232623,
+              title: 'Unknown Command',
+              description: 'I\'m sorry but I don\'t recognize that command. Check out my help commands with `'+client.settings.prefix+'help`',
+              timestamp: new Date(),
+						}
+					});
+				}
 
 		//Do command
 		await message.react('🤔');
