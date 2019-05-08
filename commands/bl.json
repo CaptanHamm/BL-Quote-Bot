@@ -2,12 +2,11 @@
   "iconURL": "http://static.tumblr.com/a295b37dd192646fa1fd7fb66092af0f/djayg0e/04Ensfpqb/tumblr_static_6rqhssg0lxk4kwoko40cs8ws8.png",
   "website": "https://borderlands.com/",
   "characters": [
-    {
-      "name": "Axton",
+    { "name": "Axton",
       "data": {
         "name": "Axton",
         "title": "Axton",
-        "color": 16711680,
+        "color": 11627567,
         "imageURL": "https://i.imgur.com/TaLBkPR.jpg",
         "fandom": "https://borderlands.fandom.com/wiki/Axton",
         "quotes": [
@@ -16,8 +15,7 @@
         ]
       }
     },
-    {
-      "name": "Brick",
+    { "name": "Brick",
       "data": {
         "name": "Brick",
         "title": "Brick - Slab King",
@@ -79,8 +77,7 @@
         ]
       }
     },
-    {
-      "name": "Claptrap",
+    { "name": "Claptrap",
       "data": {
         "name": "Claptrap",
         "title": "CL4P-TP",
@@ -203,12 +200,24 @@
         ]
       }
     },
-    {
-      "name": "Gaige",
+    { "name": "Fiona",
+      "data": {
+        "name": "Fiona",
+        "title": "Fiona",
+        "color": 11099681,
+        "imageURL": "https://i.imgur.com/CVFf4ev.png",
+        "fandom": "https://borderlands.fandom.com/wiki/Fiona",
+        "quotes": [
+          "test1",
+          "test2"
+        ]
+      }
+    },
+    { "name": "Gaige",
       "data": {
         "name": "Gaige",
         "title": "Gaige",
-        "color": 16711680,
+        "color": 14308139,
         "imageURL": "https://i.imgur.com/8PlIgZy.jpg",
         "fandom": "https://borderlands.fandom.com/wiki/Gaige",
         "quotes": [
@@ -217,12 +226,11 @@
         ]
       }
     },
-    {
-      "name": "Hammerlock",
+    { "name": "Hammerlock",
       "data": {
         "name": "Sir Hammerlock",
         "title": "Sir Hammerlock",
-        "color": 16711680,
+        "color": 15198659,
         "imageURL": "https://i.imgur.com/bhZxgSa.png",
         "fandom": "https://borderlands.fandom.com/wiki/Sir_Hammerlock",
         "quotes": [
@@ -322,8 +330,7 @@
         ]
       }
     },
-    {
-      "name": "Jack",
+    { "name": "Jack",
       "data": {
         "name": "Jack",
         "title": "Handsome Jack",
@@ -389,12 +396,11 @@
         ]
       }
     },
-    {
-      "name": "Krieg",
+    { "name": "Krieg",
       "data": {
         "name": "Krieg",
         "title": "Conductor of the Poop Train",
-        "color": 16711680,
+        "color": 13211154,
         "imageURL": "https://imgur.com/aL2gBoH.jpg",
         "fandom": "https://borderlands.fandom.com/wiki/Psycho",
         "quotes": [
@@ -431,12 +437,11 @@
         ]
       }
     },
-    {
-      "name": "Lilith",
+    { "name": "Lilith",
       "data": {
         "name": "Lilith",
         "title": "Lilith - The Firehawk",
-        "color": 16711680,
+        "color": 12793113,
         "imageURL": "https://i.imgur.com/ivSv20A.jpg",
         "fandom": "https://borderlands.fandom.com/wiki/Lilith",
         "quotes": [
@@ -445,12 +450,24 @@
         ]
       }
     },
-    {
-      "name": "Marcus",
+    { "name": "Loader Bot",
+      "data": {
+        "name": "Loader Bot",
+        "title": "Loader Bot",
+        "color": 16628002,
+        "imageURL": "https://i.imgur.com/vbEdvFf.png",
+        "fandom": "https://borderlands.fandom.com/wiki/Loader_Bot",
+        "quotes": [
+          "test1",
+          "test2"
+        ]
+      }
+    },
+    { "name": "Marcus",
       "data": {
         "name": "Marcus Kincaid",
         "title": "Marcus - No Refunds",
-        "color": 16711680,
+        "color": 8597525,
         "imageURL": "https://i.imgur.com/y7NvZEk.jpg",
         "fandom": "https://borderlands.fandom.com/wiki/Marcus_Kincaid",
         "quotes": [
@@ -477,7 +494,6 @@
           "No charge. This time.",
           "For the last time, Crank, I shipped those guns to your brother in the Fridge. Alright?",
           "I literally just told you --",
-          "(Sigh.)",
           "You want this AI thingy in a gun? Fine -- but just this once.",
           "Now, get set at the patented Marcus Munitions Murdering range! Oh, and I'm just loaning you these weapons. Don't get too attached.",
           "Hey -- I said you could BORROW that gun, not HAVE it! Frigging Vault Hunters.",
@@ -628,12 +644,11 @@
         ]
       }
     },
-    {
-      "name": "Maya",
+    { "name": "Maya",
       "data": {
         "name": "Maya",
         "title": "Maya",
-        "color": 16711680,
+        "color": 7116247,
         "imageURL": "https://i.imgur.com/W8ZQura.jpg",
         "fandom": "https://borderlands.fandom.com/wiki/Maya",
         "quotes": [
@@ -642,12 +657,11 @@
         ]
       }
     },
-    {
-      "name": "Mordecai",
+    { "name": "Mordecai",
       "data": {
         "name": "Mordecai",
         "title": "Mordecai",
-        "color": 16711680,
+        "color": 5054493,
         "imageURL": "https://i.imgur.com/3zyHSX1.jpg",
         "fandom": "https://borderlands.fandom.com/wiki/Mordecai",
         "quotes": [
@@ -656,8 +670,7 @@
         ]
       }
     },
-    {
-      "name": "Moxxi",
+    { "name": "Moxxi",
       "data": {
         "name": "Moxxi",
         "title": "Max Moxxi",
@@ -704,12 +717,24 @@
         ]
       }
     },
-    {
-      "name": "Roland",
+    { "name": "Rhys",
+      "data": {
+        "name": "Rhys",
+        "title": "Rhys",
+        "color": 5275247,
+        "imageURL": "https://i.imgur.com/0iKPnTX.png",
+        "fandom": "https://borderlands.fandom.com/wiki/Rhys",
+        "quotes": [
+          "test1",
+          "test2"
+        ]
+      }
+    },
+    { "name": "Roland",
       "data": {
         "name": "Roland",
         "title": "Roland",
-        "color": 16711680,
+        "color": 4342840,
         "imageURL": "https://i.imgur.com/OqVLEbz.jpg",
         "fandom": "https://borderlands.fandom.com/wiki/Roland",
         "quotes": [
@@ -718,12 +743,37 @@
         ]
       }
     },
-    {
-      "name": "Scooter",
+    { "name": "Salvador",
+      "data": {
+        "name": "Salvador",
+        "title": "Salvador",
+        "color": 16553809,
+        "imageURL": "https://i.imgur.com/Ibbv7B3.jpg",
+        "fandom": "https://borderlands.fandom.com/wiki/Salvador",
+        "quotes": [
+          "test1",
+          "test2"
+        ]
+      }
+    },
+    { "name": "Sasha",
+      "data": {
+        "name": "Sasha",
+        "title": "Sasha",
+        "color": 9908235,
+        "imageURL": "https://i.imgur.com/8mgl4AQ.png",
+        "fandom": "https://borderlands.fandom.com/wiki/Sasha",
+        "quotes": [
+          "test1",
+          "test2"
+        ]
+      }
+    },
+    { "name": "Scooter",
       "data": {
         "name": "Scooter",
         "title": "Scooter",
-        "color": 16711680,
+        "color": 8019468,
         "imageURL": "https://i.imgur.com/nApWEEy.png",
         "fandom": "https://borderlands.fandom.com/wiki/Scooter",
         "quotes": [
@@ -877,27 +927,12 @@
         ]
       }
     },
-    {
-      "name": "Salvador",
-      "data": {
-        "name": "Salvador",
-        "title": "Salvador",
-        "color": 16711680,
-        "imageURL": "https://i.imgur.com/Ibbv7B3.jpg",
-        "fandom": "https://borderlands.fandom.com/wiki/Salvador",
-        "quotes": [
-          "test1",
-          "test2"
-        ]
-      }
-    },
-    {
-      "name": "Tannis",
+    { "name": "Tannis",
       "data": {
         "name": "Dr. Patricia Tannis",
         "title": "Dr. Patricia Tannis",
-        "color": 16711680,
-        "imageURL": "",
+        "color": "",
+        "imageURL": "https://i.imgur.com/inXc8a5.png",
         "fandom": "https://borderlands.fandom.com/wiki/Patricia_Tannis",
         "quotes": [
           "test1",
@@ -905,8 +940,7 @@
         ]
       }
     },
-    {
-      "name": "Tina",
+    { "name": "Tina",
       "data": {
         "name": "Tina",
         "title": "Tiny Tina",
@@ -1037,8 +1071,7 @@
         ]
       }
     },
-    {
-      "name": "Torgue",
+    { "name": "Torgue",
       "data": {
         "name": "Torgue",
         "title": "Mr. Torgue...FLEXINGTON",
@@ -1082,13 +1115,25 @@
         ]
       }
     },
-    {
-      "name": "Zed",
+    { "name": "Vaughn",
+      "data": {
+        "name": "Vaughn",
+        "title": "Vaughn",
+        "color": 239766,
+        "imageURL": "https://i.imgur.com/tPFwh63.png",
+        "fandom": "https://borderlands.fandom.com/wiki/Vaughn",
+        "quotes": [
+          "test1",
+          "test2"
+        ]
+      }
+    },
+    { "name": "Zed",
       "data": {
         "name": "Dr. Zed",
         "title": "Dr. Zed - Not a real doctor.",
-        "color": 16711680,
-        "imageURL": "",
+        "color": 1665894,
+        "imageURL": "https://i.imgur.com/abiraGE.jpg",
         "fandom": "https://borderlands.fandom.com/wiki/Dr._Zed",
         "quotes": [
           "test1",
@@ -1096,12 +1141,11 @@
         ]
       }
     },
-    {
-      "name": "Zer0",
+    { "name": "Zer0",
       "data": {
         "name": "Zer0",
         "title": "Zer0",
-        "color": 16711680,
+        "color": 6183002,
         "imageURL": "https://i.imgur.com/AgXffVA.jpg",
         "fandom": "https://borderlands.fandom.com/wiki/Zer0",
         "quotes": [
