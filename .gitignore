@@ -64,3 +64,4 @@ config/bot.json
 ./commands/tits.js
 ./Quotes
 ./TestCommands
+*/*.bak
