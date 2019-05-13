@@ -60,12 +60,11 @@ typings/
 .settings/
 .project
 config/bot.json
-./commands/oldCommands
-./tits.js
+commands/oldCommands
+commands/tits.js
 ./Quotes
-./TestCommands
+commands/TestCommands
 */*.bak
-./_help
-./commands/Audio.js
+commands/Audio.js
 ./Audio
-./command/_help
+commands/_help
