@@ -65,3 +65,7 @@ config/bot.json
 ./Quotes
 ./TestCommands
 */*.bak
+./_help
+./commands/Audio.js
+./Audio
+./command/_help
