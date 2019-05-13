@@ -8,7 +8,7 @@ module.exports = async ( client, message ) => {
 		embed.fields = [
 				{
 					'name': '__Invite__',
-					'value': 'Invite this bot to your server with:  **[this invite link](https://discordapp.com/oauth2/authorize?client_id=570972433998151701&scope=bot&permissions=515136)**',
+					'value': 'Invite this bot to your server with:  **[this invite link](https://discordapp.com/oauth2/authorize?client_id='+client.id+'&scope=bot&permissions=515136)**',
 					'inline': false
 				}
 			]
