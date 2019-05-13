@@ -62,10 +62,10 @@ typings/
 config/bot.json
 commands/oldCommands
 commands/tits.js
-./Quotes
+Quotes/
 commands/TestCommands
 */*.bak
 commands/Audio.js
 ./Audio
-./Audio/*
+Audio/
 commands/_help
