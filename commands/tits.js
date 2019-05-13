@@ -11,7 +11,7 @@ try {
   }
   embed.title = "Ol' Balloon Tits"
   embed.author = {
-    'name':"Mad Moxxxi...You're Welcome Sugar",
+    'name':"Mad Mo**XXX**i...You're Welcome Sugar",
     'url': "https://imgur.com/gallery/vu3Z4",
     'icon_url': "https://i.pinimg.com/236x/e4/1a/4c/e41a4c43e5c547993bb53027996ef344--moxxi-borderlands.jpg"
   }
