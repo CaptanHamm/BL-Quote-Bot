@@ -61,7 +61,7 @@ typings/
 .project
 config/bot.json
 ./commands/oldCommands
-./commands/tits.js
+./tits.js
 ./Quotes
 ./TestCommands
 */*.bak
