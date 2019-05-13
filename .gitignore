@@ -67,4 +67,5 @@ commands/TestCommands
 */*.bak
 commands/Audio.js
 ./Audio
+./Audio/*
 commands/_help
